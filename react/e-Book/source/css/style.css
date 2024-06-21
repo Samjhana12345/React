@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#section-1{
+margin: 10px 20px 10px 20px;
+}
+#section-2{
+    margin: 10px 20px 10px 70px;
+}
+   
+#genres{
+    margin: 10px 20px 10px 80px; 
+    display: flex;
+    
+}
+
+a{
+  text-decoration: none;
+}

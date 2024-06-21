@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dayassignment.css">
+</head>
+<body>
+    <div id="container">
+        <div class="heading"><h1>Find name of week</h1></div>
+        <div class="sec"><label for="dayno">Enter week day no.</label>
+        <input type="text" id="dayno"><br></div><br>
+        <div class="btn"><button onclick="dayname()">Result</button><br></div>
+        <div class="res"><input type="text" id="result"><br></div>
+    </div>
+
+    <script>
+    function dayname() {
+        let dayno = parseInt(document.getElementById('dayno').value);
+        let result = document.getElementById('result');
+        let dayName;
+
+        if (dayno === 1) {
+            dayName = "Sunday";
+        } else if (dayno === 2) {
+            dayName = "Monday";
+        } else if (dayno === 3) {
+            dayName = "Tuesday";
+        } else if (dayno === 4) {
+            dayName = "Wednesday";
+        } else if (dayno === 5) {
+            dayName = "Thursday";
+        } else if (dayno === 6) {
+            dayName = "Friday";
+        } else if (dayno === 7) {
+            dayName = "Saturday";
+        } else {
+            dayName = "No any day of week";
+        }
+
+        result.value = dayName;
+    }
+    </script>
+</body>
+</html>

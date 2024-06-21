@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+#header{
+    border: 2px solid black;
+    /* width: flex; */
+    height: 50px;    
+    background-color: #663D1D;
+    color: white;
+
+    /* position: fixed;
+    top: 0px;
+   left: 0px; */
+}
+#header .container {
+    display: flex;
+    padding: 10px 0px 0px 15px;  
+   background-color: #663D1D;
+    justify-content: space-evenly;
+    /* line-height: 30px; */
+}
+#header .container i{
+    font-size: 30px;
+}
+#header .container .topic{
+    display: flex;
+    padding: 10px 0px 0px 15px;
+}
+
+#header .container .topic #first{
+    color: #FFFF00;
+    font-size: 15px;
+    font-weight: bold;
+ 
+}
+#header .container .topic #second{
+    font-size: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#header .container .topic #third{
+    color: #FFFF00;
+    font-size: 15px;
+    font-weight: bold;
+}
+#header .container .topic #fourth{
+    font-size: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#header .container .topic #fifth{
+    color: #FFFF00;
+    font-size: 15px;
+    font-weight: bold;
+}
+#header .container .btn{
+    width: 90px;
+    height: 30px;
+    color: black;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 4px 3px 4px;
+    background-color: #FDC566;
+}
+#secheader .header{
+    width:flex;
+    height: 30px;
+    border: 2px solid black;
+    display: flex;
+    font-size: 15px;
+    color: white;
+    background-color: #000000;
+    padding: 6px 50px 0px 400px;
+
+}
+#secheader .header #dis{
+    color:#ffff00;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#secheader .header #on{
+    
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#nav .container{
+    /* border: 2px solid ; */
+    width: 1200px;
+    display: flex;
+    border-radius: 6px;
+  background-color: #E6E6E6;
+    height: 50px;
+    margin: 0px 30px 0px 30px;
+
+    
+}
+#nav .container .leftcon{
+    display: flex;
+    color: #4F4545;
+    gap: 20px;
+    padding:15px 0px 7px 25px;
+   
+}
+#nav .container .rightcon{
+    padding: 15px 0px 7px 550px;
+display: flex;
+}
+#nav .container .rightcon .need{
+    color: #4F4545;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#nav .container .rightcon .num{
+    color: black;
+   font-size: larger;
+}
+#thirdheader{
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    background: white;
+}
+#thirdheader .container{
+    width: flex;
+    height: 130px;
+    display: flex;
+   gap: 40px;
+  
+    padding: 10px 0px 20px 20px;
+    /* border: #000000 2px solid; */
+}
+#thirdheader .container .centercont ul{
+    display: flex;
+    padding: 40px 0px 20px 100px;
+    font-size: 17px;
+    color: #4F4545;
+    gap: 20px;
+    list-style: none;
+}
+#thirdheader .container .centercont ul li{
+   
+
+}
+#thirdheader .container .centercont ul li a{
+   
+    text-decoration: none;
+    color: #000000;
+}
+#thirdheader .container .centercont ul li a:hover{
+    color: red;
+}
+/* #thirdheader .container .centercont .drop_down{
+    display: block;
+    position: absolute;
+} */
+#thirdheader .container .buy{
+    background-color: green;
+    color: white;
+    width: 90px;
+    border-radius: 15%;
+    margin: 30px 0px 20px 20px;
+    padding-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    height: 40px;
+}
+#sidebar .main{
+    display: flex;
+}
+#sidebar .main  .mainside .content ul li {
+    list-style-type: none;
+    padding: 0px; 
+    
+   
+  
+  }
+  #sidebar .main  .mainside .content ul li a{
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+    margin-right: 10px;
+  
+    
+  }
+  #sidebar .main .mainside .heading{
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+   
+  
+  }
+  #sidebar .main .mainside{
+    width: 40%;
+    height: 100%;
+    padding-right: 20px;
+  }
+  #sidebar .main .mainside .content{
+    overflow: scroll;
+  }
+  #sidebar .main .mainside .content ul{
+    font-size: 20px;
+    
+    
+  }
+  #sidebar .main .mainside .content .cont{
+    height: 50px;
+    /* overflow: auto; */
+    border: 1px solid rgb(155, 149, 149);
+    background-color: #EFF0F2;
+    font-size: 20px;
+  padding:  18px;
+  
+  }

@@ -1,0 +1,13 @@
+{
+    "users":[
+        {
+            "id" : 1,
+            "name":"Samjhana Silwal",
+            "gender":"Female",
+            "mobile" : "987456125",
+            "address" : "Lalitpur",
+            "email" : "samjhana57silwal@gmail.com",
+            "password" :"samjhana@123"
+        }
+    ]
+}

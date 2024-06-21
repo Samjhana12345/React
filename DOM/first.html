@@ -1,0 +1,61 @@
+<script>
+    console.log(document)
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome here</h1>
+    <input type="text" id="title">
+    <button onclick="changeTitle()" id="btn">Click me</button>
+    <hr>
+    <label for="">First Number</label>
+    <input type="text" id="fn">
+    <label for="">Second Number</label>
+    <input type="text" id="sn">
+    <button onclick="add()" id = "add">ADD</button>
+    <button onclick="mul()" id="mul">MUL</button>
+    <div><h1 id="result">Result:</h1></div>
+   
+    
+    <script>
+        function changeTitle(){
+            let get_value = document.
+            getElementById('title').
+            value
+            // alert(get_value)
+            document.title =get_value
+
+            // document.getElementById('btn').innerHTML = get_value
+            document.querySelector('#btn').innerHTML = get_value
+        }
+        console.log(document)
+    
+
+        function add(){
+          let get_fn = parseInt(document.getElementById('fn').value)
+
+          let get_sn = parseInt(document.getElementById('fn').value)
+
+          c =get_fn+get_sn
+
+          document.querySelector('#result').innerHTML="Sum  is " +c
+        
+        }
+        function mul(){
+          let get_fn = parseInt(document.getElementById('fn').value)
+
+          let get_sn = parseInt(document.getElementById('fn').value)
+
+          c =get_fn*get_sn
+
+          document.querySelector('#result').innerHTML="Multiplication is " +c
+        
+        }
+    </script>
+</body>
+</html>

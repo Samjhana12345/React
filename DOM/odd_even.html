@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="odd_even.css">
+</head>
+<body>
+    <div id="container">
+        <div class="heading"><h1>Check ODD or EVEN</h1></div>
+        <div class="sec">
+            <label for="no">Enter your number</label>
+            <input type="text" id="no"><br>
+        </div><br>
+        <div class="btn">
+            <button onclick="numbertype()">Result</button>
+        </div>
+        <div class="res">
+            <input type="text" id="result" readonly><br>
+        </div>
+    </div>
+
+    <script>
+        function numbertype() {
+            let number = parseInt(document.getElementById('no').value);
+            let result = document.getElementById('result');
+            let numbertype;
+
+            if (number % 2 === 0) {
+                numbertype = 'Even';
+            } else {
+                numbertype = 'Odd';
+            }
+
+            result.value = numbertype;
+        }
+    </script>
+</body>
+</html>

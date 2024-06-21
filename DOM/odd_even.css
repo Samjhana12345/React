@@ -1,0 +1,29 @@
+#container {
+    height: 250px;
+    width: 400px;
+    border: 1px black solid;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    background-color: rgb(237, 237, 149);
+}
+
+#container .heading {
+  
+ color: white;
+ background:rgb(155, 155, 4);
+    text-align: center;
+}
+#container .sec {    
+font-size: 20px;
+    text-align: center;
+}
+#container .btn {    
+    font-size: 20px;
+   margin-left: 115px;
+}
+#container .res {
+  
+    text-align: center;
+}
+
