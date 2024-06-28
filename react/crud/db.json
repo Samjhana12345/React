@@ -1,13 +1,52 @@
 {
-    "users":[
-        {
-            "id" : 1,
-            "name":"Samjhana Silwal",
-            "gender":"Female",
-            "mobile" : "987456125",
-            "address" : "Lalitpur",
-            "email" : "samjhana57silwal@gmail.com",
-            "password" :"samjhana@123"
-        }
-    ]
+  "users": [
+    {
+      "id": "2",
+      "name": "Suresh Dhakal",
+      "gender": "Male",
+      "address": "Pokhara",
+      "email": "suresh@gmail.com",
+      "password": "suresh@123"
+    },
+    {
+      "id": "10f0",
+      "name": "Sonal Khadka",
+      "gender": "Female",
+      "address": "Kathmandu",
+      "email": "sonal@gmail.com",
+      "password": ""
+    },
+    {
+      "id": "df1f",
+      "name": "Rita Khatri",
+      "gender": "Female",
+      "address": "Baghdol",
+      "email": "rita@gmailcom",
+      "password": ""
+    },
+    {
+      "id": "fc4c",
+      "name": "Indra Mahat",
+      "gender": "Male",
+      "address": "Lele",
+      "email": "indra@gmail.com",
+      "password": "indra@123"
+    },
+    {
+      "id": "7ec9",
+      "name": "Mukesh",
+      "gender": "Male",
+      "address": "Nepal",
+      "email": "mukesh",
+      "password": "mukesh@123"
+    },
+    {
+      "id": "9b43",
+      "name": "RIya Sharma",
+      "gender": "Female",
+      "address": "lele",
+      "email": "Riya@gmailcom",
+      "password": "riya@gmail.com"
+    }
+  ]
 }
